@@ -1,0 +1,16 @@
+body {
+    font-family: 'Marck Script', cursive;
+}
+
+#index-page-image {
+    width: 100%;
+}
+
+
+#menu-bar li {
+    display: inline-block;
+    border: 2px black solid;
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}

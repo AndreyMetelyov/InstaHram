@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ИнстаХрам </title>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <link type="text/css" href="assets/style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1> Приветствую !!! </h1>
+
+<ul id="menu-bar">
+    <li> <a href="index.html">Главная</a> </li>
+    <li> Карта сайта </li>
+    <li> Наши священники </li>
+    <li> <a href="news.html"> Новости </a> </li>
+    <li> Вдохновляющие отрывки из библии </li>
+    <li> Наши храмы </li>
+</ul>
+
+<img id="index-page-image" src="assets/266638.p.jpg">
+
+<form id="subscription-form">
+    <div>
+        <label for="username">Ваше имя</label>
+        <input id="username" required type="text" name="username">
+    </div>
+
+    <div>
+        <label for="phone-number">Номер телефона</label>
+        <input id="phone-number" pattern="8[0-9]{10}" required type="tel" name="phone-number">
+    </div>
+
+    <div>
+        <label for="comment">Причина обращения</label>
+        <textarea id="comment" name="comment"></textarea>
+    </div>
+
+    <div>
+        <button id="guest-subscription-button"> Отправить </button>
+    </div>
+
+    <div id="submit-message">
+
+    </div>
+
+</form>
+
+<ol id="subscriptions-list">
+
+</ol>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
